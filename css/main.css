@@ -1,0 +1,64 @@
+div{
+    border: 1px solid black;
+    border-radius: 1px;
+    border-collapse: collapse;
+
+}
+img{
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    position: center;
+    border-radius: 210px
+}
+.download{
+float: left;
+position: flex;
+display: inline-block;
+  border: 3px solid; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  color: red;
+  background-color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.linkedin{
+  float: left;
+  position: flex;
+  display: inline-block;
+  border: 3px solid;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  color: red;
+  background-color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.github{
+  float: left;
+  position: flex;
+  display: inline-block;
+  border: 3px solid;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  color: red;
+  background-color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+@media only screen and (max-width:1200px){
+}

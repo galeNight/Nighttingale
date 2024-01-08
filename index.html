@@ -1,0 +1,238 @@
+<html lang="en"><!--her vises hvilken sprog jeg skriver i fx. kodesprog  html lang=en engelsk-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--de her link sørge for at main.css er aktiv og bliver inplemateret så jeg ikke behøver at skrive ind i mit index.html-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--linket er uder er css com søre for at jeg kan bruge css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"><!--CSS-->
+    <!--linket her uder er java så jeg kan inplementere et javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> <!--JavaScript-->
+    <title>online CV</title>
+</head>
+<!--her er styles som fortæller hvordan mine tabeler skal se ud og hvilken farve den skal være-->
+<style> 
+    table,th,td{ 
+        border: 1px solid black;
+        border-collapse: collapse;}
+</style>
+<body>  
+    <div class="container-fluid p-5 bg-dark text-white text-center">
+        <h1>Online CV</h1>
+        <p>af Jannick Mørup</p>
+    </div>
+<div class="container mt-5"> <!--container hvor mit bellede er -->
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>foto af mig</h3>
+            <img class="img" src="imagets/jannick.jpeg" class="rounded" alt="billed af mig" > 
+        </div>
+        <div class="resume col-sm-4"> <!--det her er en container hvor mit Resume er-->
+          <h2>Mit Resume</h2>
+          <p>Mit mål er at blive bedre til programmering.
+            Jeg er en mødestabil, venlig, stille og rolig person, som er i praktikcenteret Tec. og dermed klar til at starte med det samme.
+            Jeg kan godt klare en arbejdsopgave alene og sammen med andre. Jeg er meget selvstændig og finder altid en løsning, og er opsøgende. I min fritid kan jeg godt lide at sidde foran computeren og spille computerspil og det var dette som vækkede min interesse i programmering fordi jeg vil vide hvordan det fungerer.
+            jeg bruger også noget af min fritid på at gå i naturen så jeg er frisk og veludhvilet så jeg er klar til næste arbejdsdag
+            det er forventet jeg er færdig med uddannelsen 23. juni 2026
+            </p>
+      </div> 
+      <div class="col-sm-4"> <!--det her er en container hvor mit Faglige kvalifikationer er-->
+        <h2>faglige kvalifikationer</h2>
+        <p>● Installering af programmer, styresystemer.</p>
+        <p>● Opsætning af computer.</p>
+        <p>● Word, PowerPoint, Excel.</p>
+        <p>● c#, html,Sql, visual studio/visual studio code.</p>
+        <p>● skilt og samlet af computere.</p>
+        <p>● Windows styresystem.</p>
+        <p>● Installation og konfiguration af router.</p>
+        <p>● Installation af backup.</p>
+        <p>● computerteknologi.</p>
+        <p>● Databaseprogrammering.</p>
+        <p>● GUI-programmering.</p>
+        <p>● ClientSideProgrammering.</p>
+        <p>● Netværk.</p>
+        <p>● Objektorienteret programmering.</p>
+        <p>● Serveradministration og sikkerhed.</p>
+        <p>● Serverteknologi - Databaseserver.</p>
+        <p>● Serverteknologi.</p>
+    </div>
+    <div class="col-sm-4">     <!--det her er en container hvor mit Gernarl og Kontakt infomation er-->
+        <h2>General og Kontaktinformation</h2> 
+        <p>navn: Jannick Mørup</p>
+        <p>alder: 26</p>
+        <p>Fødselsdato: dec 26-1995 </p>
+        <p>addresse: spurvegården 26 st.tv hvidovre 2650</p>
+        <p>email: jannickmorup@gmail.com</p>
+        <p>telefon: 61999868</p>
+    </div>
+    <div class="white col-sm-8" style="background: white;"> <!--container hvor mine links ligger-->
+        <p> 
+        <a class="linkedin" href="https://www.linkedin.com/in/jannick-mørup">linkin.com</a> <!--link til linkind.com-->     
+        <a class="download" href="cv/jannick CV.docx.pdf"download>Download CV</a> <!--link til download cv som pdf fil-->
+        <a class= "github" href="https://github.com/galeNight">github.com</a> <!--link til github.com-->
+        </p>
+    </div>
+    <div class="container-uddannelse">
+        <h3>Uddannelse</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>PERIODE</th>
+                    <th>UDDANNELSE</th>
+                    <th>UDDANNELSESSTED</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>3.januar 2022 er stadig igang</td>
+                    <td>data & kommunikation datatekniker med speciale i programmering</td>
+                    <td>Tec hvidovre praktikcenter</td>
+                </tr>
+                <tr>
+                    <td>3.aug 2021 - 24.nov 2021</td>
+                    <td>Grundforløb 2 data & kommunikation</td>
+                    <td>Tec Frederiksberg</td>
+                </tr>
+                <tr>
+                    <td>2019 - 2021</td>
+                    <td>Almen grunduddannelse (AGU)</td>
+                    <td>Filmbyen hvidovre</td>
+                </tr>
+                <tr>
+                    <td>2016 - 2017</td>
+                    <td>Grundforløb it support data & kommunikation</td>
+                    <td>Tec Ballerup</td>
+                </tr>
+                <tr>
+                    <td>2014 - 2014</td>
+                    <td>Grundforløb lastvognsmekaniker</td>
+                    <td>Tec Hvidovre</td>
+                </tr>
+                <tr>
+                    <td>2010 - 2013 </td>
+                    <td>Speciale skole 9-10 klasse</td>
+                    <td>8-9-10’eren i Glostrup</td>
+                </tr>
+                <tr>
+                    <td>2001 - 2009</td>
+                    <td>folkeskole</td>
+                    <td>nordvangskolen Glostrup</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container-Erhvervserfaring">
+        <h3>Erhvervserfaring</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>PERIODE</th>
+                    <th>STILLING</th>
+                    <th>ARBEJDSPLADS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9.april 2018 - 29.juni 2018</td>
+                    <td>Morgenopfylder</td>
+                    <td>Føtex Rødovre centrum</td>
+                </tr>
+                <tr>
+                    <td>2017- 0217 13 uger</td>
+                    <td>Praktikant RipRap</td>
+                    <td>3d print Hvidovre</td>
+                </tr>
+                <tr>
+                    <td>2014 - 2015</td>
+                    <td>Elev/ medie/ it-supporter</td>
+                    <td>Produktionsskolen Glostrup</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container-Sprog">
+        <h3>Sprog</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>mundlig og skriflig</th>
+                    <th>DANSK</th>
+                    <th>ENGELSK</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>mundlig</td>
+                    <td>modersprog</td>
+                    <td>Rutineret</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>skriftlig</td>
+                    <td>modersprog</td>
+                    <td>Rutineret</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container-færdigheder">
+        <h3>færdigheder</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>RIPRAP 3DD PRINT</th>
+                    <th>Føtex Rødovre centrum</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lagerarbejde hos RipRAp 3d print hvidovre</td>
+                    <td>Opfyldning af vare og oprydning af pap, plastik</td>
+                </tr>
+                <tr>
+                    <td>samling af motherboards komponenter</td>
+                    <td>samt samme arbejde med andre medarbejder om morgen</td>
+                </tr>
+                <tr>
+                    <td>Rensning af 3d print</td>
+                    <td>Har lidt kundeerfaring på grund af overarbejde</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container-Kurser">
+        <h3>Kurser</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>PERIODE</th>
+                    <th>KURSUS</th>
+                    <th>KURSUSSTED</th>
+                    <th>bestået eller ikke bestået</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2021 - 2021</td>
+                    <td>Førstehjælp</td>
+                    <td>Tec Frederiksberg</td>
+                    <td>bestået</td>
+                </tr>
+                <tr>
+                    <td>2016 - 2016</td>
+                    <td>Førstehjælp</td>
+                    <td>Tec Ballerup</td>
+                    <td>bestået</td>
+                </tr>
+            </tbody>
+        </table>
+     </div>
+
+</div>
+
+</body>
+
+</html>
+    
